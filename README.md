@@ -1,0 +1,2 @@
+# Amobajo
+Iksz és Kör
