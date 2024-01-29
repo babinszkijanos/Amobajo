@@ -1,3 +1,3 @@
 function create
 
-const Gomb = document.getElementById('Gomb');
+const Játék = document.getElementById('Játék');
