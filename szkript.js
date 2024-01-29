@@ -8,6 +8,7 @@ function Asztal() {
 
   const numTables = prompt("Írjon be számokat");
   const numRows = prompt("Írjon be számokat");
+}
 
   if (numTables && numRows && !isNaN(numTables) && !isNaN(numRows)) {
     createTable(parseInt(numTables), parseInt(numRows));} 
