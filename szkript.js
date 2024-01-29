@@ -15,3 +15,7 @@ function Asztal() {
     else {
     alert("Kérem írjon be számokat.");
 }
+
+function drawO(xCordinate, yCordinate)
+
+function drawX(xCordinate, yCordinate)
