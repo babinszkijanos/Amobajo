@@ -10,12 +10,12 @@ function Asztal() {
   const numRows = prompt("Írjon be számokat");
 }
 
-     if (numTables, numRows)) {}
+     if (numTables, numRows) {}
 
     else {
     alert("Kérem írjon be számokat.");
 }
 
-function drawO(xCordinate, yCordinate)
+function O(xCordinate, yCordinate)
 
-function drawX(xCordinate, yCordinate)
+function X(xCordinate, yCordinate)
