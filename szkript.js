@@ -17,6 +17,6 @@ function Mindkétfeladatvégrehajtása() {
   function csináljpályát() {
     var numRows = parseInt(document.getElementById("sorérték").value);
     var numColumns = parseInt(document.getElementById("oszlopérték").value);
-
+    var table = document.createElement("table");
    
 }
