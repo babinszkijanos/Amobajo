@@ -9,18 +9,19 @@ function Value() {
     var numColumns = parseInt(document.getElementById("numberofColumns").value);
 }
 
-function Doboth() {
+function Dothree() {
     Value();
     Play();
+    createGametable()
 }
 
   function createGametable() {
     var numRows = parseInt(document.getElementById("numberofRows").value);
     var numColumns = parseInt(document.getElementById("numberofColumns").value);
     var table = document.createElement("table");
-    for (var a = 0; a < numRows) {
+    for (let a = 0; a < numRows; a++) {
         var row = table.insertRow();
-        for (var b = 0; b < numColumns) {
+        for (let b = 0; b < numColumns; b++) {
           var cell = row.insertCell();
         }
     }
