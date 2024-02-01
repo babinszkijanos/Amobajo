@@ -12,24 +12,36 @@
   hr {
   border-top: 1px solid red;
 }
+
+.square {
+      width: 30px;
+      height: 30px;
+      border: 1px solid black;
+    }
   </style>
 <body>
-    <h1 style="display: inline-block" >Input 1</h1>
-    <h1 style="display: inline-block" >Input 2</h1>
+    <label for="inputRows">Input 1</label>
+    <input type="number" id="inputRows" min="1" value="1">
+    <label for="inputColumns">Input 2</label>
+    <input type="number" id="inputColumns" min="1" value="1">
     <h2 style="text-align:right;float:right;">Player 2</h2> 
     <h2 style="text-align:right;float:right;">Player 1</h2> 
-    <button onclick="Érték()">Játék</button>
+    <button onclick="Mindkétfeladatvégrehajtása()">Játék</button>
     <hr>
-    <table style="width:100%">
+    <table border="1">
         <tr>
-          <th></th>
-          <th></th>
-          <th></th>
+          <td style="width: 30px;"></td>
+          <td style="width: 30px;"></td>
+          <td style="width: 30px;"></td>
         </tr>
-
       </table>
+  
+      <div id="tableContainer"></div>
     <script src="szkript.js"></script>
-    <script></script>
+    <script>
+
+ 
+    </script>
     <div>
     </div>
 </body>
